@@ -25,28 +25,39 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Patricia is a front-end engineer, based in Portugal."
+    />
+    <title>Front-end developer - Patricia Periera</title>
   </head>
   <body>
-    <div class="container"></div>
-    <nav class="d-flex justify-content-between m-2">
-        <img src="images/logo.png" alt="SheCodes logo" class="logo d-none d-md-block" />
-        <img src="images/logo-small.jpg" alt="SheCodes logo" class="logo d-block d-md-none" />
+    <div class="container">
+      <nav class="d-flex justify-content-between m-2">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="SheCodes logo"
+            class="logo d-none d-md-block" />
+          <img
+            src="images/logo-small.jpg"
+            alt="SheCodes logo"
+            class="logo d-block d-md-none"
+        /></a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Patricia">About</a></li>
+          <li><a href="/work.html" title="Patricia's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Patricia">Contact</a></li>
         </ul>
-    </nav>
-  </div>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋Hello, I m</p>
       <h1>Patricia Periera</h1>
       <h2 class="mb-5">Front-end developer based in Portugal</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <p class="text-center m-5">
@@ -66,7 +77,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View detail project</a
+            >
           </div>
         </div>
       </div>
@@ -81,7 +94,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View detail project</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -102,29 +117,67 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >View detail project</a
+            >
           </div>
         </div>
       </div>
       <!--row-->
       <footer>
-        <div class="contact-box d-flex justify-content-between d-none d-md-flex">
+        <div
+          class="contact-box d-flex justify-content-between d-none d-md-flex"
+        >
           <div>
-          <h4>Work Inquiry</h4>
-          <p class="text-muted">Let’s work  together and i’ll help you by all my best</p>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">
+              Let’s work together and i’ll help you by all my best
+            </p>
           </div>
           <div>
-          <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Patricia"
+              >Contact me</a
+            >
+          </div>
         </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:patricia@gmail.com" class="email-link"
+            >patricia@gmail.com</a
+          >
         </div>
-        <div class="d-flex justify-content-center mb-5"><a href="mailto:patricia@gmail.com" class="email-link">patricia@gmail.com</a>
-    </div>
-     <div class="social-links d-flex justify-content-center mb-5">
-      <a href="https://www.instagram.com/patricia.codes"><i class="fab fa-instagram"></i></a>
-       <a href="https://www.github.com/patricia" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/patricia.codes"><i class="fab fa-facebook"></i></a>
-     </div>
-    </footer>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/patricia.codes"
+            target="_blank"
+            title="Instagram profile"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com/patricia"
+            target="_blank"
+            title="Github profile"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/patricia.codes"
+            target="_blank"
+            title="Facebook profile"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          ✌️This project was coded SheCodes, and it is
+          <a
+            href="https://github.com/NataliiaProkopenko87/Protfolio-project-setup"
+            target="_blank"
+            title="Github project"
+            >open-sourced.</a
+          >
+        </p>
+      </footer>
     </div>
     <!--container-->
   </body>
